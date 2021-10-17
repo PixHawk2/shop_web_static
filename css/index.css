@@ -1,0 +1,266 @@
+/* 主题界面样式,包括轮播图和右面的消息模块 */
+
+.main {
+    height: 455px;
+    width: 980px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+
+/* 轮播图样式 */
+
+.focus {
+    float: left;
+    height: 100%;
+    width: 722px;
+    /* background-color: green; */
+}
+
+
+/* 轮播图右侧整体样式 */
+
+.newsflash {
+    float: right;
+    height: 100%;
+    width: 250px;
+    /* background-color: blue; */
+}
+
+
+/* 消息模块样式 */
+
+.news {
+    width: 100%;
+    height: 166px;
+    background-color: white;
+    border: 1px solid #e4e4e4;
+}
+
+.news .news-head {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 16px;
+}
+
+.news .news-head h5 {
+    float: left;
+}
+
+.news .news-head a {
+    float: right;
+}
+
+.news .news-head a::after {
+    content: '\ea50';
+    font-family: 'icomoon';
+}
+
+
+/* 消息body样式 */
+
+.news-body {
+    padding: 5px 15px 0;
+}
+
+.news-body ul li {
+    line-height: 25px;
+    height: 25px;
+    /* 实现超出的部分用神略号显示 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/* 消息模块中部生活服务样式 */
+
+.lifeservice {
+    /* width: 254px; */
+    height: 207px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+    overflow: hidden;
+    /* overflow:hidden注释掉似乎不影响 */
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 72px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    margin-top: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    background: url('../images/icons.png') no-repeat -19px -16px;
+}
+
+
+/* 消息模块底部图片样式 */
+
+.bargin {
+    margin-top: 5px;
+}
+
+.bargin img {
+    height: 76px;
+    width: 250px;
+}
+
+
+/* 推荐模块样式 */
+
+.recommend {
+    height: 164px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+
+/* 推荐模块左侧样式 */
+
+.recommend .recommend-head {
+    float: left;
+    width: 205px;
+    height: 100%;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/* 推荐模块右左侧样式 */
+
+.recommend .recommend-body {
+    float: left;
+}
+
+
+/* 限制图片的大小 */
+
+.recommend-body ul li img {
+    width: 248px;
+    height: 162px;
+}
+
+.recommend-body ul li {
+    position: relative;
+    float: left;
+}
+
+
+/* 图片后面数线的绘制 */
+
+.recommend-body ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 1px;
+    height: 146px;
+    background-color: #dddddd;
+}
+
+
+/* 楼层家用电器栏样式 */
+
+.Electeic {
+    margin-top: 30px;
+}
+
+.box-head {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box-head h3 {
+    float: left;
+    /* padding-bottom: 10px; */
+    color: #c81623;
+    font-size: 18px;
+    /* line-height: 30px; */
+    font-weight: 400;
+}
+
+
+/* 右侧列表样式 */
+
+.box-head .tab_list {
+    float: right;
+}
+
+.box-head .tab_list ul li {
+    float: left;
+}
+
+.box-head .tab_list ul li a {
+    margin: 0 15px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+
+/* body style */
+
+.floor .box-body {
+    height: 361px;
+    /* background-color: gray; */
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.wid_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.wid_210 ul {
+    padding-left: 12px;
+}
+
+.wid_210 ul li {
+    float: left;
+    height: 34px;
+    width: 85px;
+    border-bottom: 1px solid #ccc;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.wid_210 ul li a {
+    font-size: 12px;
+}
+
+.wid_329 {
+    width: 329px;
+}
+
+.wid_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.wid_219 {
+    width: 219px;
+}
+
+.bottom_line {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

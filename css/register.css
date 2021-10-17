@@ -1,0 +1,186 @@
+/* 版心样式 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 图片下方的线 */
+
+.logo {
+    border-bottom: 2px solid #b1191a;
+}
+
+
+/* 注册标题样式 */
+
+.main {
+    border: 1px solid #ccc;
+    padding-bottom: 40px;
+}
+
+.main_head {
+    height: 44px;
+    background-color: #ececec;
+    padding: 0 14px;
+    line-height: 44px;
+}
+
+.main_head h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main_head p {
+    float: right;
+    font-size: 14px;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.main_body {
+    width: 600px;
+    margin: 55px auto 0px;
+    /* background-color: gray; */
+}
+
+.main_body ul li {
+    margin-bottom: 21px;
+}
+
+.main_body ul li .content {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.main_body ul li input[type="text"],
+input[type="password"] {
+    width: 243px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.main_body ul li img {
+    margin: 0 12px;
+}
+
+
+/* 输入错误图标样式 */
+
+.error_icon,
+.right_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px 0 10px;
+    vertical-align: middle;
+    background: url('../images/wrong.png') no-repeat;
+}
+
+
+/* .main_body ul li span:last-child {
+    font-size: 12px;
+    color: #df3033;
+} */
+
+
+/* 上面的另一种实现方式 */
+
+.main_body ul li .wrong,
+.main_body ul li .right {
+    font-size: 12px;
+    color: #df3033;
+}
+
+
+/* 输入正确图标样式 */
+
+.right_icon {
+    background: url('../images/right.png') no-repeat;
+}
+
+.main_body ul li .right {
+    /* font-size: 12px; */
+    color: green;
+}
+
+
+/* 密码等级展示 */
+
+.main_body .safe_class {
+    text-align: center;
+    padding-right: 83px;
+}
+
+.main_body .safe_class em {
+    padding: 0 12px;
+    /* color: #fff; */
+}
+
+.main_body .safe_class .weak {
+    background-color: #de1111;
+}
+
+.main_body .safe_class .middle {
+    background-color: #40b83f;
+}
+
+.main_body .safe_class .great {
+    background-color: #f79100;
+}
+
+
+/* 用户协议部分样式 */
+
+.main_body ul .protocol_agree {
+    font-size: 12px;
+    padding-left: 85px;
+    margin-bottom: 30px;
+}
+
+.protocol_agree input {
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 14px;
+}
+
+.protocol_agree a {
+    margin-left: 12px;
+    color: #1ba1e6;
+}
+
+
+/* 确认注册按钮样式 */
+
+.main_body ul li input[type="submit"] {
+    height: 34px;
+    width: 200px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #c81623;
+    margin-left: 112px;
+}
+
+
+/* 版权模块样式 */
+
+.mod_copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.mod_copyright .link a {
+    padding: 0 12px;
+}
+
+.mod_copyright .copyright {
+    padding-top: 15px;
+    line-height: 20px;
+}

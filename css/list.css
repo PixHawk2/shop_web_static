@@ -1,0 +1,171 @@
+/* list page style */
+
+
+/* 秒杀样式 */
+
+.second_puchase {
+    position: absolute;
+    top: 42px;
+    left: 185px;
+    border-left: 2px solid #b1191a;
+    padding: 2px 15px;
+}
+
+
+/* 左侧导航栏样式 */
+
+.nav .list_nav_left {
+    float: left;
+}
+
+.nav .list_nav_left ul li {
+    float: left;
+}
+
+.nav .list_nav_left ul li a {
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 29px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* 右侧导航栏样式 */
+
+.nav .list_nav_right {
+    float: left;
+}
+
+.nav .list_nav_right ul li {
+    float: left;
+}
+
+.nav .list_nav_right ul li a {
+    display: block;
+    height: 46px;
+    line-height: 48px;
+    padding: 0 24px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* 选择最后一个li加伪元素 */
+
+.nav .list_nav_right ul li:last-child a::after {
+    content: '\ea52';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+
+
+/* 290*460单个商品盒子大小 */
+
+.container_body {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.container_body ul li {
+    float: left;
+    margin-right: 13px;
+}
+
+.container_body ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.good_list {
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.good_list:hover {
+    border-color: #e12228;
+}
+
+
+/* 产品图像大小 */
+
+.good_list a img {
+    height: 285px;
+    /* width: 290px; */
+}
+
+.good_list a p {
+    font-size: 14px;
+    /* height: 55px; */
+    margin: 0 20px;
+    margin-bottom: 5px;
+    /* line-height: 55px; */
+}
+
+.good_list .current_price {
+    font-size: 22px;
+    font-weight: 600;
+    color: #e60012;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.good_list .pre_price {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+
+/* .good_list .sell {
+
+} */
+
+.good_list .sell {
+    height: 45px;
+    padding: 0 13px;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+
+/* 进度条样式 */
+
+.process {
+    display: inline-block;
+    width: 130px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 7px;
+    margin: 0 3px;
+    padding: 1px 0;
+    vertical-align: middle;
+}
+
+.process_1 {
+    height: 100%;
+    width: 100px;
+    border-radius: 7px 0 0 7px;
+    background-color: #ed282e;
+    transition: all .7s;
+}
+
+.process:hover .process_1 {
+    width: 120px;
+}
+
+
+/* 购买模块样式 */
+
+.good_list .button {
+    display: inline-block;
+    text-align: center;
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #b1191a;
+}
